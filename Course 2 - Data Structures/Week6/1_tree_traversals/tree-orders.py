@@ -21,20 +21,19 @@ class TreeOrders:
     # Finish the implementation
     # You may need to add a new recursive method to do that
     def recur(idx):
-        if idx == -1:
-            return []
-        if self.left[idx] == -1 and self.right[idx] == -1:
-            return [self.key[idx]]
-        if self.left[idx] == -1:
-            left = []# [self.key[idx]]
+        if self.left[idx] != -1 and self.right[idx] != -1:
+            recur(self.left[idx])
+            self.result += [self.key[idx]]
+            recur(self.right[idx])
+        elif self.left[idx] != -1:
+            recur(self.left[idx])
+            self.result += [self.key[idx]]
+        elif self.right[idx] != -1:
+            self.result += [self.key[idx]]
+            recur(self.right[idx])
         else:
-            left = recur(self.left[idx])
-        if self.right[idx] == -1:
-            right = []#[self.key[idx]]
-        else:
-            right = recur(self.right[idx])
-        return left + [self.key[idx]] +  right
-    self.result = recur(0)
+            self.result += [self.key[idx]]
+    recur(0)
     return self.result
 
   def preOrder(self):
@@ -42,20 +41,19 @@ class TreeOrders:
     # Finish the implementation
     # You may need to add a new recursive method to do that
     def recur(idx):
-        if idx == -1:
-            return []
-        if self.left[idx] == -1 and self.right[idx] == -1:
-            return [self.key[idx]]
-        if self.left[idx] == -1:
-            left = []# [self.key[idx]]
+        if self.left[idx] != -1 and self.right[idx] != -1:
+            self.result += [self.key[idx]]
+            recur(self.left[idx])
+            recur(self.right[idx])
+        elif self.left[idx] != -1:
+            self.result += [self.key[idx]]
+            recur(self.left[idx])
+        elif self.right[idx] != -1:
+            self.result += [self.key[idx]]
+            recur(self.right[idx])
         else:
-            left = recur(self.left[idx])
-        if self.right[idx] == -1:
-            right = [] #[self.key[idx]]
-        else:
-            right = recur(self.right[idx])
-        return [self.key[idx]] + left + right
-    self.result = recur(0)
+            self.result += [self.key[idx]]
+    recur(0)
     return self.result
 
   def postOrder(self):
@@ -63,20 +61,19 @@ class TreeOrders:
     # Finish the implementation
     # You may need to add a new recursive method to do that
     def recur(idx):
-        if idx == -1:
-            return []
-        if self.left[idx] == -1 and self.right[idx] == -1:
-            return [self.key[idx]]
-        if self.left[idx] == -1:
-            left = []# [self.key[idx]]
+        if self.left[idx] != -1 and self.right[idx] != -1:
+            recur(self.left[idx])
+            recur(self.right[idx])
+            self.result += [self.key[idx]]
+        elif self.left[idx] != -1:
+            recur(self.left[idx])
+            self.result += [self.key[idx]]
+        elif self.right[idx] != -1:
+            recur(self.right[idx])
+            self.result += [self.key[idx]]
         else:
-            left = recur(self.left[idx])
-        if self.right[idx] == -1:
-            right = []# [self.key[idx]]
-        else:
-            right = recur(self.right[idx])
-        return left + right + [self.key[idx]]
-    self.result = recur(0)
+            self.result += [self.key[idx]]
+    recur(0)
     return self.result
 
 def main():

@@ -411,12 +411,21 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Course 2 - Data Structures/Week6/1_tree_traversals/tree-orders.py">
+        <entry file="file://$PROJECT_DIR$/Course 2 - Data Structures/Week6/3_is_bst_advanced/is_bst_hard.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="179">
-              <caret line="70" column="38" lean-forward="true" selection-start-line="70" selection-start-column="38" selection-end-line="70" selection-end-column="38" />
+            <state relative-caret-position="220">
+              <caret line="19" column="9" lean-forward="true" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Course 2 - Data Structures/Week6/2_is_bst/is_bst.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="39" selection-start-line="39" selection-end-line="42" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -487,12 +496,14 @@
         <option value="$PROJECT_DIR$/Course 2 - Data Structures/Week4/3_hash_substring/hash_substring.py" />
         <option value="$PROJECT_DIR$/Course 2 - Data Structures/Week4/4_substring_equality/substring_equality.py" />
         <option value="$PROJECT_DIR$/Course 2 - Data Structures/Week6/1_tree_traversals/tree-orders.py" />
+        <option value="$PROJECT_DIR$/Course 2 - Data Structures/Week6/2_is_bst/is_bst.py" />
+        <option value="$PROJECT_DIR$/Course 2 - Data Structures/Week6/3_is_bst_advanced/is_bst_hard.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="952" />
-    <option name="width" value="977" />
+    <option name="x" value="953" />
+    <option name="width" value="974" />
     <option name="height" value="1038" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -501,7 +512,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -525,12 +535,20 @@
               <item name="UCSD" type="462c0819:PsiDirectoryNode" />
               <item name="Course 2 - Data Structures" type="462c0819:PsiDirectoryNode" />
               <item name="Week6" type="462c0819:PsiDirectoryNode" />
-              <item name="1_tree_traversals" type="462c0819:PsiDirectoryNode" />
+              <item name="2_is_bst" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="UCSD" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UCSD" type="462c0819:PsiDirectoryNode" />
+              <item name="Course 2 - Data Structures" type="462c0819:PsiDirectoryNode" />
+              <item name="Week6" type="462c0819:PsiDirectoryNode" />
+              <item name="3_is_bst_advanced" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -581,10 +599,10 @@
     <option name="totallyTimeSpent" value="27000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="762" y="0" width="781" height="830" extended-state="0" />
+    <frame x="763" y="0" width="779" height="830" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.3172043" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15498652" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -639,20 +657,6 @@
     </ignored-roots>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Course 1 - Algorithm Toolbox/Solutions/fibonacci_sum_squares.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="53" column="1" selection-start-line="53" selection-start-column="1" selection-end-line="53" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Course 1 - Algorithm Toolbox/Solutions/fibonacci_partial_sum.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="28" column="22" lean-forward="true" selection-start-line="28" selection-start-column="22" selection-end-line="28" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Course 1 - Algorithm Toolbox/Solutions/fractional_knapsack.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -967,8 +971,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Course 2 - Data Structures/Week6/1_tree_traversals/tree-orders.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="70" column="38" lean-forward="true" selection-start-line="70" selection-start-column="38" selection-end-line="70" selection-end-column="38" />
+        <state relative-caret-position="1816">
+          <caret line="69" column="42" lean-forward="true" selection-start-line="69" selection-start-column="42" selection-end-line="69" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Course 2 - Data Structures/Week6/2_is_bst/is_bst.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="39" selection-start-line="39" selection-end-line="42" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Course 2 - Data Structures/Week6/3_is_bst_advanced/is_bst_hard.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="19" column="9" lean-forward="true" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
         </state>
       </provider>
     </entry>
